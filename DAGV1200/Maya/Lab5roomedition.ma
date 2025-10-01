@@ -1,6 +1,6 @@
 //Maya ASCII 2025ff03 scene
 //Name: Lab5roomedition.ma
-//Last modified: Fri, Sep 26, 2025 04:06:50 PM
+//Last modified: Tue, Sep 30, 2025 08:47:55 PM
 //Codeset: 1252
 file -rdi 1 -ns "Pottedplant" -rfn "PottedplantRN" -op "v=0;" -typ "mayaAscii"
 		 "C:/GitHub/Essentials/DAGV1200/Maya/Pottedplant.ma";
@@ -16,17 +16,17 @@ fileInfo "product" "Maya 2025";
 fileInfo "version" "2025";
 fileInfo "cutIdentifier" "202505300603-a12e894a3d";
 fileInfo "osv" "Windows 11 Pro v2009 (Build: 26100)";
-fileInfo "UUID" "BFCC078B-469A-0CDA-547C-769117AE62E6";
+fileInfo "UUID" "9E1A32C2-4BB2-9F15-6E56-74B4C1FA3D02";
 createNode transform -s -n "persp";
 	rename -uid "591B331E-4F30-2BF9-993A-82B9B7CCA10E";
 	setAttr ".v" no;
-	setAttr ".t" -type "double3" 34.753621350480813 24.007602431572742 -45.252235899982097 ;
-	setAttr ".r" -type "double3" -17.138352728262088 134.59999999996197 0 ;
+	setAttr ".t" -type "double3" 24.840702698253736 17.937368587150246 -47.273181606725529 ;
+	setAttr ".r" -type "double3" -12.938352728262451 142.99999999996041 0 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "92B31887-4C0D-758B-748A-439D70CF3611";
 	setAttr -k off ".v" no;
 	setAttr ".fl" 34.999999999999993;
-	setAttr ".coi" 65.42466229891221;
+	setAttr ".coi" 58.994900672382776;
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
@@ -8981,15 +8981,15 @@ createNode mesh -n "Couch:pCube7Shape" -p "Couch:pCube7";
 	setAttr ".covm[0]"  0 1 1;
 	setAttr ".cdvm[0]"  0 1 1;
 createNode lightLinker -s -n "lightLinker1";
-	rename -uid "598D5FCA-4A88-EBBC-C146-03A1AD1819A6";
+	rename -uid "A5516F74-4839-8B7C-94BA-508AA7F70CF5";
 	setAttr -s 2 ".lnk";
 	setAttr -s 2 ".slnk";
 createNode shapeEditorManager -n "shapeEditorManager";
-	rename -uid "D4ABBFED-450F-FCA2-757A-689B500E828B";
+	rename -uid "15BBD44C-46F8-1529-9F4E-908F7570684E";
 createNode poseInterpolatorManager -n "poseInterpolatorManager";
-	rename -uid "3C8B8C06-4D33-4C17-CBA0-7E952D71E893";
+	rename -uid "2BA728C0-4332-D39B-0DC2-0F87AF0AFFFA";
 createNode displayLayerManager -n "layerManager";
-	rename -uid "083CE5F8-4307-DAB5-5C26-A08DEEA1578A";
+	rename -uid "75181A8B-4484-0C69-4AC6-05874BF3528D";
 	setAttr ".cdl" 2;
 	setAttr -s 3 ".dli[1:2]"  2 1;
 	setAttr -s 3 ".dli";
@@ -8997,7 +8997,7 @@ createNode displayLayer -n "defaultLayer";
 	rename -uid "B52BE906-4065-DD23-5F9A-52835E251313";
 	setAttr ".ufem" -type "stringArray" 0  ;
 createNode renderLayerManager -n "renderLayerManager";
-	rename -uid "6A86BF7B-40E3-5732-E122-B69B8DC38821";
+	rename -uid "9FFAC852-408F-D226-9F3B-B9BB38024B6D";
 createNode renderLayer -n "defaultRenderLayer";
 	rename -uid "C1613DBE-4AAD-DB5C-883B-C2B59F5DBC1B";
 	setAttr ".g" yes;
@@ -9018,8 +9018,6 @@ createNode aiImagerDenoiserOidn -s -n "defaultArnoldDenoiser";
 	rename -uid "9ED48A05-4E50-CA45-E6E7-E28FBED1FD8B";
 createNode displayLayer -n "FloorLyr";
 	rename -uid "A8C08FF2-4934-714F-98DC-B68CD2EC22D4";
-	setAttr ".dt" 1;
-	setAttr ".v" no;
 	setAttr ".ufem" -type "stringArray" 0  ;
 	setAttr ".do" 1;
 createNode script -n "uiConfigurationScriptNode";
