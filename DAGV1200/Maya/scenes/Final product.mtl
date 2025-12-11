@@ -1,0 +1,67 @@
+newmtl Bar_stools:lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Bar_Stool_M_Stool_BaseColor.1001.png
+Ni 1.00
+newmtl Bottlewith_cork:openPBRSurface1SG
+illum 4
+Kd 0.22 0.02 0.02
+Ka 0.00 0.00 0.00
+Tf 0.48 0.48 0.48
+Ni 1.00
+newmtl Chair_New_and_Improved:lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Chair_Tavern_M_Chair_BaseColor.1001.png
+Ni 1.00
+newmtl Hanging_lantern:lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Hanging_Lanturn_M_Lantern_BaseColor.1001.png
+Ni 1.00
+newmtl Mug_with_ale:surfaceShader1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+newmtl Mug_with_ale:surfaceShader2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 0.00
+newmtl Tavern_Liquor_shelf:lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Liquore_Shelf_M_Shelf_BaseColor.1001.png
+Ni 1.00
+newmtl Tavern_bar:lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Tavern_Bar2_M_bar_BaseColor.1001.png
+Ni 1.00
+newmtl Tavern_table:lambert2SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Tavern_Table_M_table_BaseColor.1001.png
+Ni 1.00
+newmtl lambert1SG
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+map_Kd Tavern_room_TAvern_Room_BaseColor.1002.png
+Ni 1.00
